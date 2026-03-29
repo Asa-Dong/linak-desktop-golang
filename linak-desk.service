@@ -1,0 +1,14 @@
+[Unit]
+Description=Linak Bluetooth Desk Control Daemon
+PartOf=graphical-session.target
+After=bluetooth.target dbus.socket graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/data/home/asa/桌面/linak-ctl-python/linak-ctl
+Restart=always
+RestartSec=5
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=graphical-session.target

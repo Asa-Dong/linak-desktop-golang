@@ -1,0 +1,12 @@
+{
+  "name": "Linak Desk Control",
+  "description": "Control your height-adjustable desk from the Quick Settings menu.",
+  "uuid": "linak-desk@asa.github.io",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "url": ""
+}
